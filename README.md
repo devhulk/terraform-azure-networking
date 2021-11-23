@@ -1,1 +1,1 @@
-# terraform-azure-networking
+# Azure VM Module
