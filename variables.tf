@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 variable "client_id" {}
 variable "client_secret" {}
 variable "chargeback_code" {}
@@ -42,4 +43,17 @@ variable log_analytics_workspace_location {
 # refer https://azure.microsoft.com/pricing/details/monitor/ for log analytics pricing 
 variable log_analytics_workspace_sku {
     default = "PerGB2018"
+=======
+variable "team_name" {
+    description = "Name of Product Team"
+}
+
+variable "region" {
+    description = "Name of Product Team"
+    default = "East US"
+}
+
+variable "environment" {
+    description = "dev | staging | production"
+>>>>>>> 378b376aa0915c4a10462bb63fcf435480ef1628
 }

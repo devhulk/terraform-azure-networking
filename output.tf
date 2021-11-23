@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 output "client_key" {
     value = azurerm_kubernetes_cluster.k8s.kube_config.0.client_key
 }
@@ -25,3 +26,20 @@ output "kube_config" {
 output "host" {
     value = azurerm_kubernetes_cluster.k8s.kube_config.0.host
 }
+=======
+output "vnet_id" {
+    value = azurerm_virtual_network.example.id
+}
+
+output "vnet_name" {
+    value = azurerm_virtual_network.example.name
+}
+
+output "address_space" {
+    value = azurerm_virtual_network.example.address_space
+}
+
+output "subnets" {
+    value = azurerm_virtual_network.example.subnet
+}
+>>>>>>> 378b376aa0915c4a10462bb63fcf435480ef1628
