@@ -16,7 +16,7 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "example" {
-  name     = "${var.team_name}-networking-rg"
+  name     = "${var.team_name}-networking-${var.environment}-rg"
   location = var.region
 }
 
